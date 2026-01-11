@@ -1,0 +1,11 @@
+Here is the full conversation history:
+
+{conversation_text}
+
+Conversation state: {state}
+
+Task:
+- Read the conversation carefully
+- Decide how the client should proceed
+- Give short coaching
+- Provide message suggestions that strictly follow the system rules
