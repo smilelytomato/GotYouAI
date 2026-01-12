@@ -155,7 +155,7 @@ if st.session_state.show_loading_screen:
                     border-left: 4px solid #ffc107; margin-top: 20px;">
             <p style="margin: 0; font-size: 16px;">
                 😭 <strong>Sorry for the inconvenience!</strong><br/>
-                The dev is poor and does not have money to buy OpenAI's API 😭
+                The dev is poor and doesn't have money to buy OpenAI's API 😭
             </p>
         </div>
         """, unsafe_allow_html=True)
@@ -308,7 +308,7 @@ if st.session_state.analysis_complete and st.session_state.coaching_result:
                 unsafe_allow_html=True
             )
             if st.button("📋 Copy", key="copy_suggestion", use_container_width=True):
-                st.write(f"✅ Copied: {top_suggestion}")
+                st.write(f"✅ Copied")
         
         # "Analyze more conversations" button
         st.markdown("---")
